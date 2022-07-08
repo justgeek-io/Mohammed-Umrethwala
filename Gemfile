@@ -1,9 +1,13 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# gem "rails"
-gem "jekyll"
-gem 'github-pages'
+group :jekyll_plugins do
+    gem 'github-pages'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-gist'
+    gem 'jekyll-feed'
+    gem 'jemoji'
+    gem "jekyll-paginate-v2", "~> 2.0"
+    gem "html-proofer"
+end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+gem "webrick", "~> 1.7"
