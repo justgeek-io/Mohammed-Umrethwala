@@ -6,14 +6,6 @@
             </li>
         {% endif %}
 
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="https://www.justgeek.io" target="_blank" rel="noopener noreferrer" >Blog</a>
-                </li>
-            {% endif %}
-        {% endif %}
-
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
@@ -29,6 +21,15 @@
                 </li>
             {% endif %}
         {% endif %}
+        
+        {% if site.blog == true %}
+            {% if page.title != "Blog" %}
+                <li class="item">
+                    <a class="link" href="https://www.justgeek.io" target="_blank" rel="noopener noreferrer" >Blog</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
 
         {% if site.resume == true %}
             <li class="item">
