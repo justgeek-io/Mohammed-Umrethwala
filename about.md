@@ -18,6 +18,23 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+<h1> Work Experience </h1>
+   <ul class="exp-list">
+      <h2>Forcepoint </h2>
+      <sub><span style='font-size:20px;'>&#8627;</span> Site Reliability Engineer</sub>
+
+      <h2>Qualys </h2>
+      <sub><span style='font-size:20px;'>&#8627;</span>Site Reliability Engineer</sub>
+
+      <h2>Aress Software Education Pvt. Ltd </h2> 
+      <sub><span style='font-size:20px;'>&#8627;</span>Sr. Technical Support Engineer</sub>
+
+      <h2>Geeks Solution </h2> 
+      <sub><span style='font-size:20px;'>&#8627;</span>System Administrator</sub>
+
+      <h2>Hostech Support </h2> 
+      <sub><span style='font-size:20px;'>&#8627;</span>Technical support engineer</sub>
+
 <h2>Skills</h2>
 
 <ul class="skill-list">
