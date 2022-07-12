@@ -18,7 +18,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-<h1> Work Experience </h1>
+<h1>Work Experience </h1>
    <ul class="exp-list">
       <h2>Forcepoint </h2>
       <sub><span style='font-size:20px;'>&#8627;</span> Site Reliability Engineer</sub>
