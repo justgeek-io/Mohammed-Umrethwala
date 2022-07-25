@@ -13,7 +13,7 @@ const exp = [
   },
   {
     title: "Site Reliability Engineer",
-    cardImage: "assets/images/experience-page/qualy.png",
+    cardImage: "assets/images/experience-page/qualys.png",
     place: "Qualys",
     time: "(July 2016 - July 2021)",
     desp: "<li>Responsible for deployments of the code.<li>Responsible for Monitoring and Managing the product servers</li>",
