@@ -35,7 +35,6 @@ const exp = [
 
 ];
 
-/*
 
 const showCards2 = () => {
   let output = "";
@@ -66,6 +65,8 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
+
+/*
 
 // Volunteership Cards
 
@@ -212,6 +213,8 @@ const mentor = [
   },
 ];
 
+*/
+
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
@@ -234,4 +237,3 @@ const showCards3 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards3);
 
-*/
