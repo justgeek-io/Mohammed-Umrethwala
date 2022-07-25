@@ -35,6 +35,8 @@ const exp = [
 
 ];
 
+/*
+
 const showCards2 = () => {
   let output = "";
   exp.forEach(
@@ -231,3 +233,5 @@ const showCards3 = () => {
   hackathonsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+
+*/
