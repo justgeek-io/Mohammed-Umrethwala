@@ -67,29 +67,5 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 // Hackathon Section
 
-const hackathonsection = document.querySelector(".hackathon-section");
-const mentor = [
-  
-];
-
-const showCards3 = () => {
-  let output = "";
-  mentor.forEach(
-    ({ title, image, subtitle, desp }) =>
-      (output += `  
-      <div class="blog-slider__item swiper-slide">
-        <div class="blog-slider__img">
-            <img src="${image}" alt="">
-        </div>
-        <div class="blog-slider__content">
-          <div class="blog-slider__title">${title}</div>
-          <span class="blog-slider__code">${subtitle}</span>
-          <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
-        </div>
-      </div>
-      `)
-  );
-  hackathonsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
