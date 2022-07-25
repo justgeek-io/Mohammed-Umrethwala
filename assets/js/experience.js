@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/forcepoint.png",
     place: "Forcepoint",
     time: "(June, 2021 - present)",
-    desp: "<li>Responsible for uptime of Forcepoint products.</li> <li>Monitoring & Managing the product servers<li>",
+    desp: "<li>Responsible for uptime of Forcepoint products.</li> <li>Monitoring & Managing the product servers</li>",
   },
   {
     title: "Site Reliability Engineer",
