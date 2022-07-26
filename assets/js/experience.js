@@ -86,7 +86,7 @@ const showCards = () => {
   );
   volunteership.innerHTML = output;
 };
-document.addEventListener("DOMContentLoaded", showCards786);
+document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
