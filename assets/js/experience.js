@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/forcepoint.png",
     place: "Forcepoint",
     time: "(June, 2021 - present)",
-    desp: "<li>Responsible for uptime of Forcepoint products.</li> <li>Monitoring & Managing the product servers</li>",
+    desp: "<li>Responsible for uptime of Forcepoint products.</li> <li>Monitoring & Managing the product servers",
   },
   {
     title: "Site Reliability Engineer",
@@ -25,11 +25,43 @@ const exp = [
     time: "(Nov 2011 - July 2016)",
     desp: "<li>System administration of Linux based web servers.</li><li> Securing server, by installing firewall, configuring firewall and checking security aspects</li>",
   },
-  {
+ {
     title: "System Admin",
     cardImage: "assets/images/experience-page/geeks.png",
     place: "Geeks Solutions",
     time: "(April 2008 - Nov 2011)",
     desp: "<li>Trouble shooting problems related to FTP, DNS, Mail servers, </li><li> Investigation on various and spamming attack.</li>",
   },
+
 ];
+
+
+const showCards2 = () => {
+  let output = "";
+  exp.forEach(
+    ({ title, cardImage, place, time, desp }) =>
+      (output += `        
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      <div class="card card1">
+        <img src="${cardImage}" class="featured-image"/>
+        <article class="card-body">
+          <header>
+            <div class="title">
+              <h3>${title}</h3>
+            </div>
+            <p class="meta">
+              <span class="pre-heading">${place}</span><br>
+              <span class="author">${time}</span>
+            </p>
+            <ol>
+              ${desp}
+            </ol>
+          </header>
+        </article>
+      </div>
+    </div>
+      `)
+  );
+  experiencecards.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);
