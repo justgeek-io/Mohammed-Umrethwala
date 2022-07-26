@@ -89,5 +89,3 @@ const showCards = () => {
 document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
-
-document.addEventListener("DOMContentLoaded", showCards3);
