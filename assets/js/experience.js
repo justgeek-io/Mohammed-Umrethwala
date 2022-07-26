@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 // Volunteership Cards
 
-const volunteership = document.querySelector(".volunteershipp");
+const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   ];
 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 // Hackathon Section
 
-const hackathonsection = document.querySelector(".hackathon-sectionn");
+const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
 ];
 
