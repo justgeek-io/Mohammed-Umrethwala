@@ -65,3 +65,57 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
+
+
+// Volunteership Cards
+
+const volunteership = document.querySelector(".volunteership");
+const volunteershipcards = [
+ ];
+
+const showCards = () => {
+  let output = "";
+  volunteershipcards.forEach(
+    ({ title, cardImage, description }) =>
+      (output += `        
+      <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
+      
+      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <div class="content">
+          <h2 class="volunteerTitle">${title}</h2><br>
+          <p class="copy">${description}</p></div>
+      
+      </div>
+      `)
+  );
+  volunteership.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards);
+
+// Hackathon Section
+
+const hackathonsection = document.querySelector(".hackathon-section");
+const mentor = [
+];
+
+const showCards3 = () => {
+  let output = "";
+  mentor.forEach(
+    ({ title, image, subtitle, desp }) =>
+      (output += `  
+      <div class="blog-slider__item swiper-slide">
+        <div class="blog-slider__img">
+            <img src="${image}" alt="">
+        </div>
+        <div class="blog-slider__content">
+          <div class="blog-slider__title">${title}</div>
+          <span class="blog-slider__code">${subtitle}</span>
+          <div class="blog-slider__text">${desp}</div>
+          <a href="#" class="blog-slider__button">Read More</a>   
+        </div>
+      </div>
+      `)
+  );
+  hackathonsection.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards3);
